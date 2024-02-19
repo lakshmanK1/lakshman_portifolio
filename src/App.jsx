@@ -30,6 +30,7 @@ function App() {
       projectsRef={projectsRef ? projectsRef : undefined}
       contactRef={contactRef ? contactRef : undefined}
       />
+      <Footer/>
     </section>
   )
 }

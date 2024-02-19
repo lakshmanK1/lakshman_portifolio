@@ -1,18 +1,10 @@
 import React from 'react'
-import {Button} from 'react-bootstrap'
-import TwitterIcon from '../assets/svgs/twitter.svg'
-import LinkedinIcon from '../assets/svgs/linkedin.svg'
-import InstagramIcon from '../assets/svgs/instagram.svg'
+import { Col, Row } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <footer>
-        <div><Button>Download Resume</Button></div>
-        <div className='d-flex justify-content-center align-items-center gap-2'>
-            <img src={InstagramIcon} alt='image'/>
-            <img src={TwitterIcon} alt='image'/>
-            <img src={LinkedinIcon} alt='image'/>
-        </div>
+    <footer className='d-flex justify-content-center align-items-center'>
+        <p className='fw-bold fs-6 p-3 copy-right'>© 2024, Lakshman Kamisetti</p>
     </footer>
   )
 }

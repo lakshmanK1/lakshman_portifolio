@@ -13,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 .form-control{
   &&::-webkit-input-placeholder{
     color: #4E4E50;
@@ -22,9 +21,9 @@
 
 .form-button{
   color: white;
-  background-color: #C3073F;
+  background-color: #EE4B2B;
   &&:hover{
     color: white;
-    background-color: #950740;
+    background-color: #DB310F;
   }
 }
