@@ -84,23 +84,29 @@ const Body = (props) => {
                 projectOne?.map((item, index)=>{
                     return(
                         <Col className='d-flex justify-content-center align-items-center' xs={12} sm={12} md={6} lg={6} xl={6} xxl={6} key={index}>
-                        <Card className={`w-75 h-100 bg-transparent ${index === projectOne.length-1 ? 'up-card' : ''}`}>
-                            <Card.Img src={item.icon} alt='image'/>
+                            <Card className={`w-75 bg-transparent ${index === projectOne.length-1 ? 'up-card' : ''}`}>
+                            <a className='text-decoration-none' href={item.preview} target='_blank'>
+                                <Card.Img src={item.icon} alt='image'/>
+                            </a>
                             <Card.Footer className='d-flex flex-column'>
                                 <Card.Text className='fs-3 fw-bold info-text'>{item.name}</Card.Text>
                                 <section className='d-flex justify-content-start align-items-start gap-4'>
+                                    <a className='text-decoration-none' href={item.code} target='_blank'>
                                     <div className='d-flex justify-content-start align-items-start gap-1'>
                                         <div><img src={CodeIcon} alt='code'/></div>
                                         <Card.Link role='button' className='text-decoration-none pointer-event info-text'>code</Card.Link>  
                                     </div>
+                                    </a>
 
+                                    <a className='text-decoration-none' href={item.preview} target='_blank'>
                                     <div className='d-flex justify-content-start align-items-start gap-1'>
                                         <div><img src={PreviewIcon} alt='preview'/></div>
                                         <Card.Link role='button' className='text-decoration-none info-text'>preview</Card.Link>
                                     </div>
+                                    </a>
                                 </section>
                             </Card.Footer>
-                        </Card>
+                            </Card>
                         </Col>
                     )
                 })

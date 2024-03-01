@@ -11,6 +11,9 @@ import BoostrapIcon from './assets/svgs/icons8-bootstrap.svg'
 import TailwindIcon from './assets/svgs/icons8-tailwind-css.svg'
 import GitIcon from './assets/svgs/icons8-git.svg'
 
+import RealestateIcon from '../src/assets/images/realestate.png'
+import FoodOrderIcon from '../src/assets/images/foodorder.png'
+
 
 export const skillset = [
     {name:'Javascript', icon:JavascriptIcon},
@@ -28,13 +31,13 @@ export const skillset = [
 ];
 
 export const projectOne = [
-    {name:'RealEstate', icon:'https://images.pexels.com/photos/36362/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600'},
-    {name:'Content Management system', icon:'https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&w=600'}
+    {name:'RealEstate', icon:RealestateIcon, preview:'https://realestate-mern-mlpz.onrender.com/', code:'https://github.com/lakshmanK1/realestate_mern'},
+    {name:'Food Restuarent', icon:FoodOrderIcon, preview:'https://food-delivery-app-5559f.web.app/', code:'https://github.com/lakshmanK1/FOOD-ORDER-APP-Project1'}
 ];
 
 export const projectTwo = [
-    {name:'Ecommerce', icon:'https://images.pexels.com/photos/6214472/pexels-photo-6214472.jpeg?auto=compress&cs=tinysrgb&w=600'},
-    {name:'Food Restuarent', icon:'https://images.pexels.com/photos/12674074/pexels-photo-12674074.jpeg?auto=compress&cs=tinysrgb&w=600'}
+    {name:'Content Management system', icon:'https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&w=600', preview:'', code:''},
+    {name:'Ecommerce', icon:'https://images.pexels.com/photos/6214472/pexels-photo-6214472.jpeg?auto=compress&cs=tinysrgb&w=600', preview:'', code:''},
 ]
 
 

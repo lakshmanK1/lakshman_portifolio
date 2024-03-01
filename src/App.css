@@ -28,6 +28,13 @@
   color: #DB310F;
 }
 
+.navbar .container .navbar-togglercollapsed .navbar-toggler-icon{
+  color: #EE4B2B;
+  &&:hover{
+    color: #DB310F;
+  }
+}
+
 .app{
   background-color: #1A1A1D;
 }
